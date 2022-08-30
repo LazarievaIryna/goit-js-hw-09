@@ -76,11 +76,8 @@ function deltaTime() {
   }, 1000);
 }
 function timerView(dateOffset) {
-    
   refs.daysValue.textContent = dateOffset.days;
   refs.hoursValue.textContent = dateOffset.hours;
   refs.minutesValue.textContent = dateOffset.minutes;
   refs.secondsValue.textContent = dateOffset.seconds;
 }
-
-
